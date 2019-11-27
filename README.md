@@ -30,8 +30,8 @@ Setup guide for Athena's POC
 ### How to run the POC?
 1. Make sure the Pre-requisites are fulfilled and an SQL Server instance is in the running state in a Docker container as instructed above.
 2. On Ubuntu, the athena.py file can be run with the below commands:
-    - *python3 athena.py create_user <SomeUserName>*
-    - *python3 athena.py get_user <AValidUserID>*
+    - *python3 athena.py create_user SomeUserName*
+    - *python3 athena.py get_user AValidUserID*
     - *python3 athena.py malformed_query 'SELECT * FROM UsersTable'*
 3. On Ubuntu, **Nose Testing** can be performed on the athena.py file by runing this command:
     - *nosetests athena.py*
